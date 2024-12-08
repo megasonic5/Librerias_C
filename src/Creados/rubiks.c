@@ -27,6 +27,7 @@ T_cubo_rubik crearCubo(int tamano_x,int tamano_y) {
     fopen(cubo->nombre,"w");
     fprintf(cubo->nombre,cubo);
     fclose(cubo->nombre);
+    return cubo;
 }
 
 void eliminarCubo(T_cubo_rubik *cubo) {
