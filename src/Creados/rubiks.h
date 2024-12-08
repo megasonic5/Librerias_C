@@ -4,6 +4,7 @@
 typedef struct {
     int tamano;
     int *lados[6];
+    char *nombre;
 } T_cubo_rubik;
 
 T_cubo_rubik *crearCubo(int tamano);
