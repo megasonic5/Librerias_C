@@ -15,5 +15,6 @@
     void cuboOrdenado(T_cubo_rubik *cubo);
     void mostrarCubo(T_cubo_rubik *cubo);
     void guardarCubo(T_cubo_rubik *cubo);
+    void ladoFilaACadena(T_cubo_rubik *cubo, int lado, int fila, char *cadena);
 
 #endif
