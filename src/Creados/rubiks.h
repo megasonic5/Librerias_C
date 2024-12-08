@@ -7,7 +7,7 @@ typedef struct {
     char *nombre;
 } T_cubo_rubik;
 
-T_cubo_rubik *crearCubo(int tamano);
+T_cubo_rubik *crearCubo(int tamano_x,int tamano_y);
 void eliminarCubo(T_cubo_rubik *cubo);
 void giraCubo(T_cubo_rubik *cubo,int cara,int direccion);
 void desordenarCubo(T_cubo_rubik *cubo);
