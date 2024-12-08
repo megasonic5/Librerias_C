@@ -28,3 +28,11 @@ T_cubo_rubik crearCubo(int tamano_x,int tamano_y) {
     fprintf(cubo->nombre,cubo);
     fclose(cubo->nombre);
 }
+
+void eliminarCubo(T_cubo_rubik *cubo) {
+    if(*cubo) {
+        
+    } else if(cubo->nombre) {
+        remove(cubo->nombre);
+    }
+}
